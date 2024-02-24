@@ -1,0 +1,27 @@
+<html>
+<head>
+   <link rel="stylesheet" href="style.css">
+   <title>A Simple Quiz App | Becodewala</title>
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <marquee behavior="" direction="right">Subscribe to Becodewala on YouTube</marquee>
+    <div class="container">
+        <div class="quiz">
+            <h1>Simple Quiz App</h1>
+            <div class="question" id="question">What is the capital of India?</div>
+            <ul class="options" id="options">
+                <li data-answer="wrong">Mumbai</li>
+                <li data-answer="wrong">Chennai</li>
+                <li data-answer="correct">New Delhi</li>
+                <li data-answer="wrong">Kolkata</li>
+            </ul>
+            <button class="btn" id="next-btn" disabled>Next</button>
+            <div class="result">Your score is <span id="score">0</span> out of <span id="total">0</span>.</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
